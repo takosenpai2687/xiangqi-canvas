@@ -2,11 +2,11 @@ html,
 body {
   width: 100%;
   height: 100%;
+  font-family: SimHei, STHeiti;
 }
 
 .header p {
   user-select: none;
-  font-family: SimHei;
   font-size: 24px;
   line-height: 50px;
   height: 50px;
@@ -40,7 +40,7 @@ body {
   height: 100%;
   float: left;
   position: relative;
-  background: url('../img/bg.png') no-repeat;
+  background: url("../img/bg.png") no-repeat;
   background-size: cover;
 }
 
@@ -62,7 +62,8 @@ canvas {
   z-index: 2;
 }
 
-.black-tools, .red-tools {
+.black-tools,
+.red-tools {
   width: 100%;
   height: 50%;
   background: #333333;
@@ -70,7 +71,7 @@ canvas {
 }
 
 .active {
-  background: #F64A46;
+  background: #f64a46;
   box-shadow: 0 0 10px #000 inset;
 }
 
@@ -85,7 +86,6 @@ canvas {
   border: none;
   box-shadow: 0 0 8px #333333;
   color: #eeeeee;
-  font-family: SimHei;
   font-size: 20px;
   user-select: none;
   cursor: pointer;
@@ -95,22 +95,21 @@ canvas {
   font-size: 20px;
   text-align: center;
   margin: 0 auto;
-  font-family: SimHei;
   display: none;
 }
 
-.turn-tag.black{
+.turn-tag.black {
   color: #eeeeee;
 }
 
-.turn-tag.red{
+.turn-tag.red {
   color: #333333;
 }
 
-.red-tools.active p{
+.red-tools.active p {
   display: block;
 }
 
-.black-tools.active p{
+.black-tools.active p {
   display: block;
 }
