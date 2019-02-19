@@ -79,12 +79,12 @@ canvas {
   height: 40px;
   margin-top: 5px;
   width: 100px;
-  background: #46f655;
+  background: #808000;
   border-radius: 3px;
   outline: none;
   border: none;
   box-shadow: 0 0 8px #333333;
-  color: #333333;
+  color: #eeeeee;
   font-family: SimHei;
   font-size: 20px;
   user-select: none;
