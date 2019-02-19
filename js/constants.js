@@ -1,20 +1,20 @@
 const cfg = {
-  chessSize: 24,
+  chessSize: 22,
   colors: {
     red: '#F3DDB8',
-    black: '#F3DDB8'
+    black: '#113311'
   },
-  font: '21px SimHei',
+  font: '21px SimHei, STHeiti',
   fontColors: {
     red: 'red',
-    black: 'black'
+    black: 'white'
   },
   background: '#E7C275',
   lineWidth: 2,
   lineColor: 'black',
-  hintColor: 'yellow',
-  hintWidth: 2,
-  hintSize: 24,
+  hintColor: 'cyan',
+  hintWidth: 4,
+  hintSize: 22,
   startPos: {
     red: {
       general: [{ r: 9, c: 4 }],
